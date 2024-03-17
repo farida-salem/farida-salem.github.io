@@ -8,7 +8,6 @@ body {
 
 body.dark-mode {
     background-color: #333;
-    /* Add dark mode */
     color: #fff;
 }
 
@@ -54,9 +53,7 @@ section {
 
 section:hover {
     transform: scale(1.01);
-    /* Enlarge the section on hover */
     box-shadow: 0 8px 0 rgba(0, 0, 0, 0.2);
-    /* Add some shadow to the section */
 }
 
 footer {
@@ -70,7 +67,6 @@ footer {
 
 nav ul li a {
     text-align: center;
-    /* Center the text vertically */
     color: #faf7f7;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -78,90 +74,70 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #ffcc00;
-    /* Change color on hover */
     transform: scale(1.2);
-    /* Enlarge the link on hover */
 
 }
 
 #skills ul {
     display: flex;
-    /* Use flexbox */
     flex-wrap: wrap;
-    /* Allow the items to wrap as needed */
     justify-content: space-around;
-    /* Distribute items evenly */
     padding: 0;
-    /* Remove default padding */
     list-style-type: none;
-    /* Remove default list style */
 }
 
 #skills li {
     display: flex;
-    /* Use flexbox for centering content inside the li */
     justify-content: center;
-    /* Center the content horizontally */
     align-items: center;
-    /* Center the content vertically */
     margin: 20px;
     width: 100px;
-    /* Set the width of the cards */
     height: 50px;
-    /* Set the height of the cards */
     background-color: #f8f8f8;
-    /* Set the background color of the cards */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    /* Add some shadow to the cards */
     transition: 0.3s;
-    /* Add some transition for hover effects */
     padding: 20px;
-    /* Add some padding inside the cards */
     text-align: center;
-    /* Center the text inside the cards */
     font-family: Arial, sans-serif;
     font-weight: bold;
 }
 
 #skills li:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    /* Change the shadow on hover */
-}
 
-/* Other CSS rules... */
+}
 
 .flex-container {
     display: flex;
     justify-content: space-between;
-    width: 98%; /* Ensure the flex container takes up the full width */
+    width: 98%;
     align-items: center;
 }
 
 .social-icons {
-    font-size: 1.5em; /* Increase the size of the icons */
+    font-size: 1.5em;
 }
 
 .social-icons a {
-    margin: 0 10px; /* Add some space between the icons */
-    color: inherit; /* Make the icons the same color as your text */
-    text-decoration: none; /* Remove the underline */
-}
-.social-icons a:hover {
-    color: #ffcc00; /* Change the color on hover */
+    margin: 0 10px;
+    color: inherit;
+    text-decoration: none;
 }
 
-/* Other CSS rules... */
+.social-icons a:hover {
+    color: #ffcc00;
+}
 
 #projects {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* Align title to left */
+
 }
 
 #projects .title {
     margin-bottom: 20px;
-    /* Add space between title and cards */
+
 }
 
 #projects .cards-container {
